@@ -1,0 +1,22 @@
+{
+	"name": "dev-with-a-bindi",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 8000",
+		"build": "next build",
+		"start": "next start -p $PORT",
+		"heroku-postbuild": "npm run build"
+	},
+	"dependencies": {
+		"bootstrap": "^4.5.0",
+		"next": "9.4.1",
+		"react": "16.13.1",
+		"react-dom": "16.13.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.4",
+		"@types/react": "^16.9.35",
+		"typescript": "^3.9.3"
+	}
+}
